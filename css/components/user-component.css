@@ -18,9 +18,9 @@
     font-size: 22px;
 }
 .user-component__subtitle {
-    margin-top: 8px;
     font-size: 17px;
     color: var(--font-color);
+    margin-right: 5px;
 }
 .user-component__avatar--xl {
     width: 80px;
@@ -44,4 +44,12 @@
 .user-component__time {
     margin-bottom: 10px;
     display: block;
+}
+.user-component__number {
+    margin-top: 8px;
+    display:flex;
+    justify-content: center;
+}
+.user-component__number i {
+    color:rgb(245, 90, 90);
 }
