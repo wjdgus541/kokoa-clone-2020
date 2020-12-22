@@ -29,4 +29,51 @@
     border-radius: 25px;
     padding: 12px;
     font-size: 15px;
+    margin-bottom: 25px;
+}
+.message-row {
+    width: 100%;
+    display: flex;
+    margin-bottom: 25px;
+}
+.message-row img {
+    width:50px;
+    height: 50px;
+    border-radius: 35%;
+    margin-right: 10px;
+}
+.message__info {
+    display: flex;
+    align-items: flex-end;
+}
+.message__author {
+    opacity: 0.8;
+    font-size: 15px;
+    margin-bottom: 5px;
+    display: block;
+}
+.message__bubble {
+    background-color: white;
+    padding: 12px;
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    font-size: 18px;
+}
+.message__time {
+    font-size: 14px;
+    margin: 0 5px;
+    color: var(--font-color);
+}
+.message-row__own {
+    display: flex;
+    justify-content: flex-end;
+}
+.message-row__own .message__bubble {
+    background-color: var(--yellow);
+    border-top-right-radius: 0;
+    border-top-left-radius: 15px;
+    margin-right: 0;  
+}
+.message-row__own .message__info {
+    flex-direction: row-reverse;
 }
